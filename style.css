@@ -20,7 +20,7 @@
 @import url(https://fonts.googleapis.com/css?family=Poiret+One);
 body {
     color: #444;
-    font-family: var(--ff-primary);
+    font-family: var(--ff-primary), 'Calibri' sans-serif;
 	font-weight: 400;
 	font-size: 1.3125rem;
 	line-height: 1.6;
