@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive</title>
+    <title>Fernanda's Portfolio</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Roboto:wght@300;400&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	
 </head>
 <body>
-	<nav>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="main.js"></script>
+	<nav id="menu">
         <input type="checkbox" id="check-menu">
         <label for="check-menu" class="check-menu-btn">
             <i class="fa fa-bars"></i>
@@ -21,12 +24,14 @@
         <label class="logo">
             <i class="fa fa-code"></i>
         </label>
-        <ul class="text-center">
+		
+        <ul class="text-center menu-teste">
+			<li><a href="#home" data-container="link" data-link="contact">Home</a></li>
             <li><a href="#about" data-container="link" data-link="about">About</a></li>
             <li><a href="#portfolio" data-container="link" data-link="portfolio">Portfolio</a></li>
-            <li><a href="#footer" data-container="link" data-link="contact">Contact</a></li>
         </ul>
     </nav>
+
 	<header id="home" class="bg-header text-center">
 		<div class="container container--narrow">
 			<h1>Fernanda Rodrigues</h1>
@@ -98,3 +103,4 @@
     </footer>
 </body>
 </html>
+

@@ -23,7 +23,7 @@ html{
 }
 body {
     color: #444;
-    font-family: var(--ff-primary), 'Calibri' sans-serif;
+    font-family: var(--ff-primary);
 	font-weight: 400;
 	font-size: 1.3125rem;
 	line-height: 1.6;
@@ -57,9 +57,11 @@ a{
 }
 header,
 section{
-    padding: 4rem 0;
+    padding: 7rem 0;
 }
-
+#home{
+	padding: 7rem 0;
+}
 img{
     display: block;
     max-width: 100%;
@@ -123,8 +125,7 @@ img{
 @media screen and (min-width: 50em) {
 	.bg-banner{
 		height: 350px;
-	}
-    
+	}    
 }
 /*
 NAVIGATION
@@ -133,6 +134,7 @@ nav{
     background: var(--clr-primary-800);
     height: 80px;
     width: 100%;
+	position: fixed;
 }
 .logo{
     color: var(--clr-neutral-100);
@@ -170,7 +172,9 @@ a:hover{
 #check-menu{
     display: none;
 }
+
 @media (max-width: 53em){
+	
     .check-menu-btn{
         display: block;
     }
@@ -196,12 +200,14 @@ a:hover{
     }
     #check-menu:checked ~ ul{
         left: 0;
+		position: fixed;
     }
 }
 @media (max-width: 59em){
     label.logo{
         font-size: 1.875rem;
         padding-left: 3.125rem;
+		
     }
     nav ul li a{
         font-size: 1rem;
@@ -223,7 +229,7 @@ PORTFOLIO
 	filter: alpha(opacity=100);
 }
 #portfolio h2{
-	color: var(--clr-primary-800);
+	color: var(--clr-primary-400);
 }
 #portfolio h3{
 	color: var(--clr-primary-400);
