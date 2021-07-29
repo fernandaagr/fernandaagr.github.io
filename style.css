@@ -10,7 +10,7 @@
 	--clr-neutral-100: #fff;
 
 	/*Font family*/
-	--ff-primary: 'Poiret One', cursive;
+	--ff-primary: 'Poiret One', cursive, !important;
 }
 /*@import url(https://fonts.googleapis.com/css?family=Poiret+One);*/
 *,
